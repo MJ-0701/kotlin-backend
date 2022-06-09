@@ -1,6 +1,6 @@
 package com.example.kotlinbackend.global.advice
 
-import com.example.kotlinbackend.global.exception.ExceptionApiController
+import com.example.kotlinbackend.global.controller.exception.ExceptionApiController
 import com.example.kotlinbackend.controller.put.PutApiController
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity

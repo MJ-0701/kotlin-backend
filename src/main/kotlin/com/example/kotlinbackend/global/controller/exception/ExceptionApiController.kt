@@ -1,4 +1,4 @@
-package com.example.kotlinbackend.global.exception
+package com.example.kotlinbackend.global.controller.exception
 
 import com.example.kotlinbackend.model.http.ErrorResponse
 import org.springframework.http.HttpStatus
@@ -30,9 +30,10 @@ import javax.validation.Valid
 class ExceptionApiController {
 
     @GetMapping("/hello")
-    fun hello(){
+    fun hello() : String {
         val list = mutableListOf<String>()
-        val temp = list[0]
+//        val temp = list[0]
+        return "hello"
     }
 
     @GetMapping("")
